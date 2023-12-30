@@ -51,5 +51,6 @@ A string that represents the model should be given when using this method. When 
 
 <br/>
 After saving, the model will be saved as a pth file, and the Statistic object will be saved as a pkl file. These suffixes should be included into file paths.
+
 ## Deficiency
 When using this module to trace data, train_loss will dramatically increase at the begining of a new training process, which can be seen in the front image. However, I'm not sure whether it is the module's problem, or it is my model's problem.
