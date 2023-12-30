@@ -45,12 +45,12 @@ class Statistic():
         plt.subplot(2,2,3)
         plt.plot(self.test_loss)
         plt.title("Test Loss")
-        plt.xlabel("Batch Number")
+        plt.xlabel("Testing times")
 
         plt.subplot(2,2,4)
         plt.plot(self.test_accuracy)
         plt.title("Test Accuracy")
-        plt.xlabel("Batch Number")
+        plt.xlabel("Testing times")
 
         plt.suptitle(f"{name} Training Monitor")
 
