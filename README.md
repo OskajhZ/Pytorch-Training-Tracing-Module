@@ -1,4 +1,4 @@
-# Pytorch Training Process Tracing Module
+# A Pytorch Training Process Tracing Module
 **Xiangnan Zhang**
 
 **School of Future Technology, Beijing Institute of Technology**
